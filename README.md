@@ -15,3 +15,20 @@
 
     - by using recursive implement fibonacci
     - by using recursive implement binary_search algorithms
+
+### 4. Complexity of Algorithms
+
+    - Time Complexity
+
+    - Space Complexity
+
+    - Average Time Complexity
+
+    - Worst-case Time Complexity
+
+    - Bio-O Notation
+    examples)
+    > O(logn) - Size and log Proportion of Input : binary search algorithms.
+    > O(n) - Size and Proportion of Input : linear search algorithms.
+    > O(nlogn) - Merge sort algorithms.
+    > O(n2) - insert sort algoritms.
