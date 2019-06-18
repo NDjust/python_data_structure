@@ -9,10 +9,10 @@ def recursive_binary(L, target_numm, lower, upper):
     if x == L[mid]:
         return mid
     elif x < L[mid]:
-        return solution(L, x, lower, mid - 1)
+        return recursive_binary(L, x, lower, mid - 1)
 
     else:
-        return solution(L, x, mid + 1, upper)
+        return recursive_binary(L, x, mid + 1, upper)
 
 
 if __name__ == "__main__":
@@ -20,4 +20,4 @@ if __name__ == "__main__":
     x = 6
     l = 0
     u = 6
-    print(solution(L, x, l, u))
+    print(recursive_binary(L, x, l, u))
