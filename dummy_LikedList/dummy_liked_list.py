@@ -52,7 +52,7 @@ class LinkedList:
         if pos != 1 and pos == self.nodeCount + 1:
             prev = self.tail
 
-        else:
+        else:  # dummy로 맨앞일 경우 고려 x
             prev = self.getAt(pos - 1)
 
         return self.insertAfter(prev, newNode)
@@ -71,12 +71,8 @@ class LinkedList:
             curr = curr.next
         return result
 
-        def concat(self, l):
-            self.tail.next = l.head.next  # dummy 추가로 수정.
-            if l.tail:
-                self.tail = l.tail
-            self.nodeCount += l.nodeCount
-
-
-def solution(x):
-    return 0
+    def concat(self, l):
+        self.tail.next = l.head.next  # dummy 추가로 수정.
+        if l.tail:
+            self.tail = l.tail
+        self.nodeCount += l.nodeCount
