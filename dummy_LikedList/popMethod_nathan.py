@@ -1,3 +1,12 @@
+'''
+1. 맨앞의 리스트를 pop 할경우
+2. 리스트가 한개일 경우
+3. 맨뒤의 리스트를 pop할 경우
+
+* dummy node 고려해서 코드 짜기.
+'''
+
+
 def popAfter(self, prev):
     if prev.next is None:
         return None
