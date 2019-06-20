@@ -47,3 +47,9 @@
 ##### https://github.com/NDjust/python_data_structure/tree/master/linked_list
 
 ![LinkedList](./image/LinkedList.png)
+
+### 6. Dummy Linked List
+
+##### https://github.com/NDjust/python_data_structure/tree/master/dummy_LikedList
+
+![Dummy_LinkedList](./image/dummy_likedlist.png)
