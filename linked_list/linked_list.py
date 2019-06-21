@@ -123,10 +123,10 @@ class LinkedList:
         '''
 
         data = 0
-        if pos <= 0 or pos > self.nodecount:
+        if pos <= 0 or pos > self.nodeCount:
             raise IndexError
 
-        if self.nodecount == 1:
+        if self.nodeCount == 1:
             data = self.head.data
             self.head = None
             self.tail = None
@@ -138,7 +138,7 @@ class LinkedList:
 
             else:
                 prev = self.getAt(pos - 1)
-                if pos == self.nodecount:
+                if pos == self.nodeCount:
                     data = prev.next.data
                     prev.next = None
                     self.tail = prev
@@ -146,7 +146,7 @@ class LinkedList:
                     data = prev.next.data
                     prev.next = prev.next.next
 
-        self.nodecount -= 1
+        self.nodeCount -= 1
         return data
 
     def concat(self, L):
