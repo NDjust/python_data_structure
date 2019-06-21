@@ -48,6 +48,21 @@
 
 ![LinkedList](./image/LinkedList.png)
 
+#### Linked List Methods
+
+1. certain element reference 
+
+2. list traversal
+
+3. get lenth
+
+4. insert element
+
+5. delete element
+
+6. merge list to list
+
+
 ### 6. Dummy Linked List
 
 ##### https://github.com/NDjust/python_data_structure/tree/master/dummy_LikedList
