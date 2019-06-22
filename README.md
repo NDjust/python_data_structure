@@ -48,6 +48,12 @@
 
 ![LinkedList](./image/LinkedList.png)
 
+#### Objects
+
+1. Node
+
+2. LinkedList
+
 #### Linked List Methods
 
 1. certain element reference 
