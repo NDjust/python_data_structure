@@ -126,25 +126,21 @@ class LinkedList:
         if pos <= 0 or pos > self.nodeCount:
             raise IndexError
 
-        if self.nodeCount == 1:
+        if pos == 1:
             data = self.head.data
+            self.head = self.head.next
+        else:
+            prev = self.getAt(pos - 1)
+            if pos == self.nodeCount:
+                data = prev.next.data
+                prev.next = None
+                self.tail = prev
+            else:
+                data = prev.next.data
+                prev.next = prev.next.next
+        if self.nodeCount == 1:
             self.head = None
             self.tail = None
-
-        else:
-            if pos == 1:
-                data = self.head.data
-                self.head = self.head.next
-
-            else:
-                prev = self.getAt(pos - 1)
-                if pos == self.nodeCount:
-                    data = prev.next.data
-                    prev.next = None
-                    self.tail = prev
-                else:
-                    data = prev.next.data
-                    prev.next = prev.next.next
 
         self.nodeCount -= 1
         return data
@@ -175,4 +171,8 @@ if __name__ == "__main__":
     print(L.insertAt(1, a))
     print(L.insertAt(2, b))
     print(L.insertAt(1, c))
-    print(L.insertAt(3, a))
+    # print(L.insertAt(2, c)) - > Node 중복시 에러.
+    print(L.traverse())
+    print(L.popAt(1))
+    print(L.popAt(2))
+    print(L.popAt(1))
