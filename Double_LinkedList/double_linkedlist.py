@@ -1,4 +1,7 @@
 class Node:
+    '''
+    extends self.prev variable at LinkedList
+    '''
 
     def __init__(self, item):
         self.data = item
@@ -7,6 +10,10 @@ class Node:
 
 
 class DoublyLinkedList:
+    '''
+    extends reverse, before methods at LinkedList
+    extends member variable at LinkedList
+    '''
 
     def __init__(self):
         self.nodeCount = 0
