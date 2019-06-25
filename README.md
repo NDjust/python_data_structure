@@ -77,6 +77,29 @@
 
 ### 7. Double Linked List
 
-##### https://github.com/NDjust/python_data_structure/tree/master/Double_LinkedList
+##### https://github.com/NDjust/python_data_structure/tree/master/DoublyLinkedList
 
 ![Double_LinkedList](./image/Double_LinkedList.png)
+
+
+### 8. Stack
+
+##### https://github.com/NDjust/python_data_structure/tree/master/Stack
+
+Last in - First Out Data Structure 
+
+Methods
+
+1. push - Insert data element at last index
+
+2. pop - Return & delete data element at last index
+
+3. is_Empty - Check Stack (boolean)
+
+4. peek - Return data element at last index
+
+Stack Application Examples.
+
+1. Convet infix notation to postfix notation
+
+2. Calculate postfix notation
