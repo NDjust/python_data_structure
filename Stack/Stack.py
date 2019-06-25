@@ -1,6 +1,12 @@
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+# 1단계 위 부모폴더의 절대경로를 참조 path에 추가.
+# sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname((os.path.dirname(__file__)))))) - 2단계 위 부모 폴더의 절대경로를 참조 path에 추가.
+
+
 from DoublyLinkedList.DoublyLinkedList import Node
 from DoublyLinkedList.DoublyLinkedList import DoublyLinkedList
-
 
 class ArrayStack:
 
