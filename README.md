@@ -86,6 +86,8 @@
 
 ##### https://github.com/NDjust/python_data_structure/tree/master/Stack
 
+![Stack](./image/Stack.png)
+
 Last in - First Out Data Structure 
 
 Methods
