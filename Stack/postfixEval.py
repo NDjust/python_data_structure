@@ -1,3 +1,6 @@
+'''
+Check refactoring
+'''
 from Stack import ArrayStack as Stack
 from splitTokens import splitTokens
 from infixToPostfix import infixToPostfix

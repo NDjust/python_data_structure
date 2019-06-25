@@ -1,3 +1,6 @@
+'''
+check refactoring
+'''
 from Stack import ArrayStack
 
 prec = {
