@@ -1,5 +1,6 @@
 import os
 import sys
+
 sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 
 from DoublyLinkedList.DoublyLinkedList import Node, DoublyLinkedList
@@ -18,6 +19,7 @@ class PriorityQueue:
     def enqueue(self, x):
         newNode = Node(x)
         curr = self.queue.head
+
         while curr.next != self.queue.tail and x < curr.next.data:
             curr = curr.next
         '''
