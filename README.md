@@ -83,12 +83,10 @@
 
 
 ### 8. Stack
-
+### Last-in First-Out Data Structure
 ##### https://github.com/NDjust/python_data_structure/tree/master/Stack
 
 ![Stack](./image/Stack.png)
-
-Last in - First Out Data Structure 
 
 Methods
 
@@ -105,3 +103,29 @@ Stack Application Examples.
 1. Convet infix notation to postfix notation
 
 2. Calculate postfix notation
+
+### 9. Queue
+### First-in First-Out Data Structure
+#### https://github.com/NDjust/python_data_structure/tree/master/queue
+
+![Queue](./image/Queue.png)
+
+Methods
+
+1. enqueue(x) - Insert data element at last index
+
+2. dequeue() - Return & delete data element at first index
+
+3. is_Empty() - Check Stack (boolean)
+
+4. peek() - Return data element at first index
+
+5. size() - Check how to many data counts 
+
+6. isFull() - Check to data is full
+
+Stack Application Examples.
+
+1. CircularQueue
+
+2. PriorityQueue
