@@ -56,17 +56,17 @@
 
 #### Linked List Methods
 
-1. certain element reference 
+1. getAt() - certain element reference 
 
-2. list traversal
+2. traverse() - list traversal
 
-3. get lenth
+3. getLenth()- get lenth
 
-4. insert element
+4. insertAt(pos, newNode) - insert element
 
-5. delete element
+5. popAt(pos) - delete element
 
-6. merge list to list
+6. concat(L) - merge list to list
 
 
 ### 6. Dummy Linked List
