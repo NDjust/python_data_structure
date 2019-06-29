@@ -129,3 +129,32 @@ Stack Application Examples.
 1. CircularQueue
 
 2. PriorityQueue
+
+### 10. (Binary) Tree
+
+#### link
+
+![Tree](./image/Tree.png)
+
+Composition of tree
+
+1. nodes - edges
+2. root node - internal node - leaf node
+3. parents node - child node
+4. Level of node
+5. Degree of node
+6. depth(height) of tree 
+7. subtrees
+
+#### Sorts of Binary Tree 
+1. binary trees
+- Level of all nodes is lower below 2.
+- Can define recursive 
+
+2. full binary trees
+- Filled with nodes at all level
+- Height = k, nodes = 2**k -1 
+3. complete binary trees
+- Height = k
+- Up to level k - 2, all nodes is full binary tree with two children
+- At level k - 1, a binary tree with nodes sequentially filled from the left
