@@ -133,15 +133,15 @@ Stack Application Examples.
 
 1. in-order Traversl
 ![in-order](./image/in-order.png)
-> left subtree - self - right subtree
+> order : left subtree -> self -> right subtree
 
 2. pre-order traversal
 ![pre-order](./image/pre-order.png)
-> self - left subtree - right subtree
+> order : self -> left subtree -> right subtree
 
 3. post-order traversal
 ![post-order](./image/post-order.png)
-> left subtree - right subtree - self
+> order : left subtree -> right subtree -> self
 
 
 
