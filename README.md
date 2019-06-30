@@ -50,23 +50,17 @@
 
 #### Objects
 
-1. Node
-
-2. LinkedList
+> 1. Node
+> 2. LinkedList
 
 #### Linked List Methods
 
-1. getAt() - certain element reference 
-
-2. traverse() - list traversal
-
-3. getLenth()- get lenth
-
-4. insertAt(pos, newNode) - insert element
-
-5. popAt(pos) - delete element
-
-6. concat(L) - merge list to list
+> 1. getAt() - certain element reference 
+> 2. traverse() - list traversal
+> 3. getLenth()- get lenth
+> 4. insertAt(pos, newNode) - insert element
+> 5. popAt(pos) - delete element
+> 6. concat(L) - merge list to list
 
 
 ### 6. Dummy Linked List
@@ -90,13 +84,10 @@
 
 Methods
 
-1. push - Insert data element at last index
-
-2. pop - Return & delete data element at last index
-
-3. is_Empty - Check Stack (boolean)
-
-4. peek - Return data element at last index
+> 1. push(x) - Insert data element at last index
+> 2. pop() - Return & delete data element at last index
+> 3. is_Empty() - Check Stack (boolean)
+> 4. peek() - Return data element at last index
 
 Stack Application Examples.
 
@@ -112,29 +103,46 @@ Stack Application Examples.
 
 Methods
 
-1. enqueue(x) - Insert data element at last index
-
-2. dequeue() - Return & delete data element at first index
-
-3. is_Empty() - Check Stack (boolean)
-
-4. peek() - Return data element at first index
-
-5. size() - Check how to many data counts 
-
-6. isFull() - Check to data is full
+> 1. enqueue(x) - Insert data element at last index 
+> 2. dequeue() - Return & delete data element at first index
+> 3. is_Empty() - Check Stack (boolean)
+> 4. peek() - Return data element at first index
+> 5. size() - Check how to many data counts 
+> 6. isFull() - Check to data is full
 
 Stack Application Examples.
 
-1. CircularQueue
+> 1. CircularQueue
+> 2. PriorityQueue
 
-2. PriorityQueue
-
-### 10. (Binary) Tree
+### 10. Binary Tree
 
 #### https://github.com/NDjust/python_data_structure/tree/master/tree
 
 ![Tree](./image/Tree.png)
+
+#### methods
+
+> size()- node counts
+
+> depth() - depth of tree
+
+> traversal() - tree traversal
+
+#### sort of traversal
+
+1. in-order Traversl 
+> left subtree - self - right subtree
+
+2. pre-order traversal
+> self - left subtree - right subtree
+
+3. post-order traversal
+> left subtree - right subtree - self
+
+
+
+
 
 Composition of tree
 
@@ -158,3 +166,5 @@ Composition of tree
 - Height = k
 - Up to level k - 2, all nodes is full binary tree with two children
 - At level k - 1, a binary tree with nodes sequentially filled from the left
+
+#### Binary Tree
