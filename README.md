@@ -173,6 +173,8 @@ Stack Application Examples.
 ### 10. Heap
 #### https://github.com/NDjust/python_data_structure/tree/master/heap
 
+![heap](./image/heap.png)
+
 #### methods
 > 1. __init__() - Create empty heap
 > 2. insert(item) - Insert new data item
