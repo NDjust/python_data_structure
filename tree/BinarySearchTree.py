@@ -124,10 +124,25 @@ class BinarySearchTree:
                         parent.right = node_child
                 else:
                     self.root = node_child
-            else: # if childe node count is 2, how to remove node.
-                pass    
-            
+            else: 
+                parent = node
+                successor = parent.right
+                
+                while successor.left:
+                    parent = successor
+                    successor = successor.left
+                
+                # target replace next big number
+                node.key = successor.key
+                node.data = successor
 
+                # replaced node remove
+                if parent.key > successor.key:
+                    parent.left = successor.left
+                elif parent.key < successor.key:
+                    parent.right = successor.right
+            
+            return True
         else:
             return False
             
