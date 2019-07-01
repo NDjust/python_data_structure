@@ -171,7 +171,7 @@ Stack Application Examples.
 - At level k - 1, a binary tree with nodes sequentially filled from the left
 
 ### 10. Heap
-#### reference - https://github.com/NDjust/python_data_structure/tree/master/heap
+#### https://github.com/NDjust/python_data_structure/tree/master/heap
 
 #### methods
 > 1. __init__() - Create empty heap
