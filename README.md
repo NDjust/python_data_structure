@@ -169,3 +169,22 @@ Stack Application Examples.
 - Height = k
 - Up to level k - 2, all nodes is full binary tree with two children
 - At level k - 1, a binary tree with nodes sequentially filled from the left
+
+### 10. Heap
+#### reference - https://github.com/NDjust/python_data_structure/tree/master/heap
+
+#### methods
+> 1. __init__() - Create empty heap
+> 2. insert(item) - Insert new data item
+> 3. remove() - Max data(root node) return & remove
+> 4. maxHeapify() - Use recursive algorithms to remove data
+
+#### Heap Node pattern
+> node number : m
+> 1. left child number : 2 * m
+> 2. right child number : 2 * m + 1
+> 3. parent node number : m /// 2
+
+#### Heap Applications
+1. Prioirity Queue
+2. Heap Sort
