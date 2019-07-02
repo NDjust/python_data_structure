@@ -18,5 +18,8 @@ def test():
         eval_r += [eval(tc)]
     return "result : {} \neval: {}".format(result, eval_r)
 
+
+
 if __name__ == "__main__":
+    
     print(test())
