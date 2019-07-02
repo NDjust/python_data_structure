@@ -5,6 +5,7 @@ from Stack import ArrayStack as Stack
 from splitTokens import splitTokens
 from infixToPostfix import infixToPostfix
 
+
 def postfixEval(tokenList):
     valStack = Stack()
 
