@@ -2,7 +2,7 @@ from random import randint
 import time
 
 
-def insert_sort(L):
+def bubble_sort(L):
     '''
     insert sort algorithms 
 
