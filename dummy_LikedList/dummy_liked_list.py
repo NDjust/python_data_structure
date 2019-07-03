@@ -1,12 +1,3 @@
-'''
-popAt method 에러.
-수정 예정.
-
-popAfter method 및 더미코드 추가.
-
-'''
-
-
 class Node:
 
     def __init__(self, item):
