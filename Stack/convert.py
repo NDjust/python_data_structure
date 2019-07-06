@@ -11,6 +11,9 @@ prec = {
 
 
 def convert(S):
+    '''
+    materialize to ArrayStack
+    '''
     opStack = ArrayStack()
     answer = ''
     
@@ -34,6 +37,32 @@ def convert(S):
 
     return answer
         
+
+def convert_(s):
+    '''
+    materialize to python list
+    '''
+    stack = []
+    re = ''
+    for c in s:
+        if c not in '()+-*/':
+            re += c
+        elif c == '(':
+            stack.append(c)
+        elif c == ')':
+            while stack[-1] != '(':
+                re += stack.pop()
+            stack.pop()
+        elif stack and prec[c] <= prec[stack[-1]]:
+            re += stack.pop()
+            stack.append(c)
+        else:
+            stack.append(c)
+                
+    while stack:
+        re += stack.pop()
+    return re
+
 
 
 
