@@ -3,13 +3,13 @@ def splitTokens(exprStr):
     val = 0
     valProcessing = False
     for c in exprStr:
-        if c == ' ':
+        if c == ' ': # ignore blank
             continue
-        if c in '0123456789':
+        if c in '0123456789': # number case
             val = val * 10 + int(c)
             valProcessing = True
         else:
-            if valProcessing:
+            if valProcessing: # sign case
                 tokens.append(val)
                 val = 0
             valProcessing = False
@@ -17,3 +17,6 @@ def splitTokens(exprStr):
     if valProcessing:
         tokens.append(val)
     return tokens
+
+
+
