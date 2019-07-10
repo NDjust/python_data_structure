@@ -14,7 +14,13 @@ class Node:
         r_d = self.right.depth() if self.right else 0
         return max(l_d, r_d) + 1
 
-    def inorder(self)->list:
+    def inorder(self) -> list:
+        '''
+        ordering 
+        1) left subtree
+        2) self
+        3) right subtree
+        '''
         traversal = []
         if self.left:
             traversal += self.left.inorder()
@@ -23,7 +29,13 @@ class Node:
             traversal += self.right.inorder()
         return traversal
 
-    def preorder(self)->list:
+    def preorder(self) -> list:
+        '''
+        ordering
+        1) self
+        2) left subtree
+        3) right subtree
+        '''
         traversal = []
         traversal.append(self.data)
         if self.left:
@@ -32,7 +44,13 @@ class Node:
             traversal += self.right.preorder()
         return traversal
     
-    def postorder(self)->list:
+    def postorder(self) -> list:
+        '''
+        ordering
+        1) left subtree
+        2) right subtree
+        3) self
+        '''
         traversal = []
         if self.left:
             traversal += self.left.postorder()
