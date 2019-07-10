@@ -188,5 +188,6 @@ Stack Application Examples.
 > 3. parent node number : m /// 2
 
 #### Heap Applications
+
 1. Prioirity Queue
 2. Heap Sort
