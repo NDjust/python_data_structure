@@ -82,7 +82,6 @@ node - data
 insert(key, data): 트리에 주어진 데이터 원소를 추가
 remove(key): 특정 원소를 트리로부터 삭제
 lookup(key): 특정 원소를 검색 (탐색) return 찾은 노드와 , 그것의 부모 노드 (각각 없으면 None)
-> return -> finding node, parent node(remove method에서 필요하기 때문에.)
 inorder(): 키의 순서대로 데이터 원소들을 나열
 min(), max(): 최소 키, 최대 키를 가지는 원소를 각각 탐색
 
