@@ -38,12 +38,12 @@ class BinaryTree:
         if self.root:
             q.enqueue(self.root)
         
-        while not q.isEmpty():
+        while not q.isEmpty(): # 부모 노드의 순서에 따라 다음 노드들의 순서가 결정됨으로 한 노드 방문시 그 다음 노드들 순서를 기록.
             node = q.dequeue()
             traversal.append(node.data)
             if node.left:
                 q.enqueue(node.left)
-            if self.node.right:
+            if node.right:
                 q.enqueue(node.right)
 
         return traversal
