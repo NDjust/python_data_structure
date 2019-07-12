@@ -14,8 +14,12 @@ class Node:
         if self.right:
             traversal += self.right.inorder()
         return traversal
-    
+
     def lookup(self, key, parent=None):
+        '''
+        params : key
+        return finding node, parent node(remove method에서 필요하기 때문에.)
+        '''
         if key < self.key:
             if self.left:
                 return self.left.lookup(key, self)
