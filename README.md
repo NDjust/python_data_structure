@@ -125,7 +125,7 @@ Stack Application Examples.
 
 > 1. nodes - edges
 > 2. root node - internal node - leaf node
-> 3. parents node - child node
+> 3. parents node - childs node
 > 4. Level of node
 > 5. Degree of node
 > 6. depth(height) of tree 
