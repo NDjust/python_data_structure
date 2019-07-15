@@ -159,7 +159,7 @@ Stack Application Examples.
 #### Sorts of Binary Tree 
 1. binary trees
 - Level of all nodes is lower below 2.
-- Can define recursive 
+- Can define recursive. 
 
 2. full binary trees
 - Filled with nodes at all level
