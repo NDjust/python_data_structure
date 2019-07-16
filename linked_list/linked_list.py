@@ -42,7 +42,7 @@ class LinkedList:
             s += repr(curr.data)
             if curr.next is not None:
                 s += ' -> '
-                curr = curr.next
+            curr = curr.next
         return s
 
     def getLenth(self):
@@ -173,10 +173,12 @@ if __name__ == "__main__":
     L = LinkedList()
     print(L)
     print(L.insertAt(1, a))
+    print(L)
     print(L.insertAt(2, b))
     print(L.insertAt(1, c))
     # print(L.insertAt(2, c)) - > Node 중복시 에러.
     print(L.traverse())
     print(L.popAt(1))
     print(L.popAt(2))
+    print(L)
     print(L.popAt(1))
