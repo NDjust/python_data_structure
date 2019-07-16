@@ -30,7 +30,7 @@ class LinkedList:
         return self.nodeCount
 
     def getAt(self, pos):
-        if pos < 0 or pos > self.nodeCount:
+        if pos < 0 and pos > self.nodeCount:
             return None
 
         i = 0  # dummy 추가로 수정.
