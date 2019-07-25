@@ -83,14 +83,14 @@ class LinkedList:
         '''
         if pos < 1 or pos > self.nodeCount + 1:
             return False
-        if pos == 1:  # 조건문을 잘 처리 함으로써 빈 리스트의 경우도 처리할수록 설계.
+        if pos == 1:  
             newNode.next = self.head
             self.head = newNode
         else:
             if pos == self.nodeCount + 1:
                 prev = self.tail
             else:
-                prev = self.getAt(pos - 1)  # 왜 이 순서로 해야하는지 파악.
+                prev = self.getAt(pos - 1)  
             newNode.next = prev.next
             prev.next = newNode
 
