@@ -176,7 +176,7 @@ if __name__ == "__main__":
     print(L)
     print(L.insertAt(2, b))
     print(L.insertAt(1, c))
-    # print(L.insertAt(2, c)) - > Node 중복시 에러.
+    print(L)
     print(L.traverse())
     print(L.popAt(1))
     print(L.popAt(2))
