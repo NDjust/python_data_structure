@@ -151,15 +151,14 @@ class LinkedList:
 
     def concat(self, L):
         self.tail.next = L.head
-        if L.tail:  # 빈 리스트 일 경우 조건 처리.
+        if L.tail: 
             self.tail = L.tail
         self.nodeCount += L.nodeCount
 
     def traverse(self):
         data_list = []
         curr = self.head
-        while curr is not None:
-            # 모든 Node에 class에 data, next attribute을 가지고 있다.
+        while curr is not None:            
             data_list += [curr.data]
             curr = curr.next
         return data_list
@@ -173,8 +172,8 @@ if __name__ == "__main__":
     L = LinkedList()
     print(L)
     print(L.insertAt(1, a))
-    print(L)
     print(L.insertAt(2, b))
+    print(L)
     print(L.insertAt(1, c))
     print(L)
     print(L.traverse())
