@@ -17,6 +17,7 @@ class Node:
 
     def lookup(self, key, parent=None):
         '''
+        Recursive Function
         params : key
         return finding node, parent node(remove method에서 필요하기 때문에.)
         '''
