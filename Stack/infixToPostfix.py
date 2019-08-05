@@ -4,7 +4,7 @@ Check refactoring
 from Stack import ArrayStack as Stack
 from splitTokens import splitTokens
 
-def infixToPostfix(tokenList):
+def infixToPostfix(tokenList: list) -> list:
     '''
     Algoritms Architecture
 
