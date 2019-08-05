@@ -1,4 +1,4 @@
-def splitTokens(exprStr):
+def splitTokens(exprStr)-> list:
     tokens = []
     val = 0
     valProcessing = False
